@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvQuestion"
+        android:layout_height="wrap_content"
+        android:text="How many subs should be subtracted?"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/etDeltaSubs"
+        android:layout_height="wrap_content"
+        android:hint="10"
+        android:textAlignment="textEnd"
+        android:inputType="number"
+        android:layout_gravity="right"
+        android:elevation="1dp" />
+</LinearLayout>
